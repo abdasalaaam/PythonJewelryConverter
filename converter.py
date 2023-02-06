@@ -117,7 +117,7 @@ tokenized_titles, word_fd, bigram_fd, trigram_fd = 0,0,0,0
 
 descPrefix = '<font size="4"><p><b>Jeweler Grade findings and components. High quality products manufactured for use by industry jewelry professionals and hobbyists. Diamonds graded and sorted by GIA graduate of diamonds. Why settle for less?</b></p><p><b>Le Suq offers an assortment of 10K/14K/18K Solid Gold and .925 Sterling Silver finished jewelry findings and jewelry making products at prices that are extremely competitive with today\'s precious metals market.</b></p>'
 
-api_key = 'AIzaSyAp5cL5k0nL8SlqHojdpqge0OlIvIbL7rA'
+api_key = '###########################'
 
 def readAndCopy(readFile, copyFile, writeFile, activeListingsFile):
     global listings, lengthOfRow, rowTemplate, varTemplate, header, header2
