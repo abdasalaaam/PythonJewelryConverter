@@ -21,7 +21,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import re
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'lesuq-jewelry-22533778a54a.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '##########################'
 
 storage_client = storage.Client()
 
@@ -1145,9 +1145,4 @@ def findSpecsChunk(content):
         endInd += 1
     return content[startInd:endInd]
 
-    
-#getItemURLSpecs('22940:287068:S')
-#getItemURLSpecs('1840')
-#getRedirectedURLContent("https://www.stuller.com/search/results?query=1841")
 readAndCopy("toBeConverted2.csv", "trueTemplate.csv", "priceyVersion.csv","activeListings.csv")
-#print(valueOfString("1"))
